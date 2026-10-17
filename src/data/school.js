@@ -1,28 +1,22 @@
-// ─────────────────────────────────────────────────────────────
-//  EDIT THIS FILE to change the school's details and images.
-//  Everything marked [PLACEHOLDER] should be replaced with real info.
-// ─────────────────────────────────────────────────────────────
 
-// Images live in /public/images. Replace a file with your own photo
-// (keep the same name), or change the file name below.
 export const img = (file) => `${import.meta.env.BASE_URL}images/${file}`
 
 export const school = {
   name: 'Kontoh Educational Complex',
   shortName: 'Kontoh',
-  motto: 'Strong foundations for every child.', // [PLACEHOLDER] use the real school motto
-  address: ['Ejisu-Fumesua', 'Ashanti Region', 'Ghana'], // [PLACEHOLDER]
-  phone: '+233 598 559 814', // [PLACEHOLDER]
+  motto: 'Strong foundations for every child.', // school motto
+  address: ['Ejisu-Fumesua', 'Ashanti Region', 'Ghana'],
+  phone: '+233 598 559 814', // Phone number
   phoneLink: '+233598559814', // digits only, with country code
   whatsapp: '233243321512', // digits only, no + sign
-  email: 'kontohschool@gmail.com', // [PLACEHOLDER] also receives the contact form messages
+  email: 'kontohschool@gmail.com', // this email also receives the contact form messages
   hours: [
-    { days: 'Monday to Friday', time: '7:00 am to 4:00 pm' }, // [PLACEHOLDER]
+    { days: 'Monday to Friday', time: '7:00 am to 4:00 pm' },
     { days: 'Saturday', time: 'By appointment' },
     { days: 'Sunday', time: 'Closed' },
   ],
-  // Used for the map on the Contact page. Use the exact name or address of the school.
-  mapQuery: 'Ghana', // [PLACEHOLDER] e.g. 'Kontoh Educational Complex, Kumasi'
+  formspreeId: '', //FormSpree ID goes here
+
   social: {
     facebook: '', // paste full URLs, leave empty to hide
     instagram: '',
@@ -30,7 +24,7 @@ export const school = {
   },
 }
 
-// Home page slideshow. Replace the images (1600 x 700 works well) and edit the text.
+// Home page slideshow.
 export const carousel = [
   { file: 'carousel-1.jpg', alt: 'Pupils in a bright classroom', title: 'Lessons that engage', text: 'Small classes and caring teachers help every child take part.' },
   { file: 'carousel-2.jpg', alt: 'Children playing on the field', title: 'Room to play and grow', text: 'Sports and games build teamwork, health and school spirit.' },
@@ -74,7 +68,7 @@ export const leaders = [
   { name: 'Mr Bright Annan', role: 'Head of Junior High School', photo: 't3.jpg' },
 ]
 
-// Gallery: category must be one of the names in galleryCategories (or add your own).
+// Gallery images
 export const galleryCategories = ['Classroom', 'Sports', 'Events', 'Campus']
 
 export const gallery = [

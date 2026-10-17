@@ -15,7 +15,7 @@ import { school, values, facilities, leaders, img } from '../data/school'
       <div class="row g-5 align-items-center">
         <div class="col-lg-6">
           <h2 v-reveal class="section-title">Our story</h2>
-          <!-- [PLACEHOLDER] Replace with the real history of the school -->
+          <!--  history of the school -->
           <p v-reveal="80">
             {{ school.name }} , Ghana was founded by Mr. Nat Kontoh upon his return
             from the USA. Mr. Nat Kontoh had come to Ghana after having spent six
