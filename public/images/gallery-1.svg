@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+<rect width="1200" height="900" fill="#f6e6bd"/>
+<g fill="none" stroke="#6b4a05" stroke-opacity=".35" stroke-width="3">
+<rect x="96.0" y="72.0" width="1008.0" height="756.0" rx="14"/>
+<path d="M96.0 720.0 L420.0 450.0 L660.0 630.0 L840.0 495.00000000000006 L1104.0 720.0"/>
+<circle cx="888.0" cy="252.00000000000003" r="54.0"/>
+</g>
+<text x="50%" y="396.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="67.5" font-weight="700" fill="#6b4a05">Gallery photo 1</text>
+<text x="50%" y="486.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="40.5" fill="#6b4a05" fill-opacity=".8">gallery-1.svg  |  1200 x 900</text>
+</svg>
