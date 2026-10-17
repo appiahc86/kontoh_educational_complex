@@ -15,7 +15,7 @@ export const school = {
     { days: 'Saturday', time: 'By appointment' },
     { days: 'Sunday', time: 'Closed' },
   ],
-  formspreeId: '', //FormSpree ID goes here
+  formspreeId: 'mqpenoev', //FormSpree ID goes here
 
   social: {
     facebook: '', // paste full URLs, leave empty to hide
