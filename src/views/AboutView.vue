@@ -104,18 +104,18 @@ import { school, values, facilities, leaders, img } from '../data/school'
   </section>
 
   <!-- Leadership -->
-  <section class="section">
-    <div class="container">
-      <h2 v-reveal class="section-title mb-5">School leadership</h2>
-      <div class="row g-4">
-        <div v-for="(p, i) in leaders" :key="p.role" v-reveal="i * 100" class="col-sm-6 col-lg-4">
-          <img class="portrait mb-3" :src="img(p.photo)" :alt="`Photo of ${p.name}`" />
-          <h3 class="h5 mb-0">{{ p.name }}</h3>
-          <p class="text-muted-ink mb-0">{{ p.role }}</p>
-        </div>
-      </div>
-    </div>
-  </section>
+<!--  <section class="section">-->
+<!--    <div class="container">-->
+<!--      <h2 v-reveal class="section-title mb-5">School leadership</h2>-->
+<!--      <div class="row g-4">-->
+<!--        <div v-for="(p, i) in leaders" :key="p.role" v-reveal="i * 100" class="col-sm-6 col-lg-4">-->
+<!--          <img class="portrait mb-3" :src="img(p.photo)" :alt="`Photo of ${p.name}`" />-->
+<!--          <h3 class="h5 mb-0">{{ p.name }}</h3>-->
+<!--          <p class="text-muted-ink mb-0">{{ p.role }}</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
 
   <section class="cta-band">
     <div v-reveal class="container d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
