@@ -15,6 +15,7 @@ const links = [
 
 // Close the mobile menu after choosing a page
 watch(() => route.fullPath, () => { open.value = false })
+
 </script>
 
 <template>

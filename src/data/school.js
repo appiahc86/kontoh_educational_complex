@@ -81,4 +81,7 @@ export const gallery = [
   { file: 'g7.jpg', alt: 'The front of the school building', caption: 'The school entrance', category: 'Campus' },
   { file: 'g8.jpg', alt: 'The school compound', caption: 'The school compound', category: 'Campus' },
   { file: 'g9.jpg', alt: 'Kindergarten children at play', caption: 'Kindergarten playtime', category: 'Classroom' },
+  { file: 'g10.jpeg', alt: 'Kumasi Museum', caption: 'A visit to Kumasi Museum', category: 'Events' },
+  { file: 'g11.jpeg', alt: 'Catering', caption: 'Catering session', category: 'Events' },
+  { file: 'g12.jpeg', alt: 'Holiday celebration', caption: 'Making holiday memories together', category: 'Events' },
 ]
