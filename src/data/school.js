@@ -61,13 +61,6 @@ export const facilities = [
   'Clean water and washrooms',
   'Safe, fenced compound',
 ]
-
-export const leaders = [
-  { name: 'Mr Emmanuel Essien', role: 'Headteacher' },
-  { name: 'Mr Ernest Yeboah', role: 'Assistant Headteacher, Academics' },
-  { name: 'Mr Bright Annan', role: 'Head of Junior High School' },
-]
-
 // Gallery images
 export const galleryCategories = ['Classroom', 'School activities', 'Clubs', 'Visits', 'Campus']
 

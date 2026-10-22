@@ -1,6 +1,6 @@
 <script setup>
 import HeroCarousel from '../components/HeroCarousel.vue'
-import { school, levels, reasons, values, facilities, leaders, carousel, gallery, levelImages, mapSrc, img } from '../data/school'
+import { school, levels, reasons, values, facilities, carousel, gallery, levelImages, mapSrc, img } from '../data/school'
 
 const { early, primary, jhs } = levelImages
 const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
@@ -106,9 +106,7 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
     <img :src="img('web/campus-entrance.webp')" alt="School entrance and campus courtyard" loading="lazy" />
     <div class="feature-text">
       <h2>A word from the headteacher</h2>
-      <h3 class="sub">{{ leaders[0].name }}</h3>
       <p>Every child who walks through our gate carries the hopes of a family. Our job is to match that hope with good teaching, firm guidance and a lot of care. Come and see the school for yourself.</p>
-      <ul class="icon-list"><li v-for="l in leaders.slice(1)" :key="l.name"><i class="bi bi-person" aria-hidden="true"></i>{{ l.name }}, {{ l.role }}</li></ul>
     </div>
   </section>
 
