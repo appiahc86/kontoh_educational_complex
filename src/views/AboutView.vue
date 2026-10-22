@@ -39,7 +39,7 @@ import { school, values, facilities, leaders, img } from '../data/school'
           </p>
         </div>
         <div class="col-lg-6">
-          <img v-reveal="120" class="img-fluid rounded-img" :src="img('about.jpg')" alt="Pupils and teachers at the school" />
+          <img v-reveal="120" class="img-fluid rounded-img" :src="img('g7.jpeg')" alt="Pupils and teachers at the school" />
         </div>
       </div>
     </div>

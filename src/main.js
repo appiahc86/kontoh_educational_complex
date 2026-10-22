@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './styles/main.css'
+import './styles/lomonossow.css'
 import App from './App.vue'
 import router from './router'
 

@@ -76,12 +76,13 @@ export const gallery = [
   { file: 'g2.jpg', alt: 'Students working in a science lesson', caption: 'Breaktime in classroom', category: 'Classroom' },
   { file: 'g3.jpg', alt: 'Children running on the sports field', caption: 'Inter-house sports day', category: 'Sports' },
   { file: 'g4.jpg', alt: '6th March rehearsals', caption: 'Football on the school field', category: 'Sports' },
-  { file: 'g5.jpg', alt: 'Pupils performing in traditional dress', caption: 'Cultural day performance', category: 'Events' },
-  { file: 'g6.jpg', alt: 'Graduation ceremony', caption: 'Graduation day', category: 'Events' },
-  { file: 'g7.jpg', alt: 'The front of the school building', caption: 'The school entrance', category: 'Campus' },
-  { file: 'g8.jpg', alt: 'The school compound', caption: 'The school compound', category: 'Campus' },
+  { file: 'g6.jpeg', alt: 'School compound', caption: 'School compound', category: 'Campus' },
+  { file: 'g7.jpeg', alt: 'The front of the school building', caption: 'The school entrance', category: 'Campus' },
   { file: 'g9.jpg', alt: 'Kindergarten children at play', caption: 'Kindergarten playtime', category: 'Classroom' },
   { file: 'g10.jpeg', alt: 'Kumasi Museum', caption: 'A visit to Kumasi Museum', category: 'Events' },
   { file: 'g11.jpeg', alt: 'Catering', caption: 'Catering session', category: 'Events' },
   { file: 'g12.jpeg', alt: 'Holiday celebration', caption: 'Making holiday memories together', category: 'Events' },
 ]
+
+export const mapSrc =
+  'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15849.207601042497!2d-1.5268119!3d6.7329742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ae587e970de1f09!2sKONTOH%20EDUCATIONAL%20COMPLEX!5e0!3m2!1sen!2sgh!4v1672112108043!5m2!1sen!2sgh'
