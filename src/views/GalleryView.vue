@@ -36,7 +36,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <PageHeader title="Gallery" lead="A look at school life: lessons, sports, events and our campus." />
+  <PageHeader title="Gallery" lead="A look at school life: lessons, activities, clubs, visits and our campus." />
 
   <section class="section">
     <div class="container">

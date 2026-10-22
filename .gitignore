@@ -147,3 +147,6 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Full-resolution image originals are kept locally; publish public/images/web copies.
+.image-originals/

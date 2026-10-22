@@ -1,6 +1,6 @@
 <script setup>
 import PageHeader from '../components/PageHeader.vue'
-import { school, values, facilities, leaders, img } from '../data/school'
+import { school, values, facilities, img } from '../data/school'
 </script>
 
 <template>
@@ -39,7 +39,7 @@ import { school, values, facilities, leaders, img } from '../data/school'
           </p>
         </div>
         <div class="col-lg-6">
-          <img v-reveal="120" class="img-fluid rounded-img" :src="img('g7.jpeg')" alt="Pupils and teachers at the school" />
+          <img v-reveal="120" class="img-fluid rounded-img" :src="img('web/campus-entrance.webp')" alt="School entrance, buildings and landscaped courtyard" />
         </div>
       </div>
     </div>
@@ -102,20 +102,6 @@ import { school, values, facilities, leaders, img } from '../data/school'
       </div>
     </div>
   </section>
-
-  <!-- Leadership -->
-<!--  <section class="section">-->
-<!--    <div class="container">-->
-<!--      <h2 v-reveal class="section-title mb-5">School leadership</h2>-->
-<!--      <div class="row g-4">-->
-<!--        <div v-for="(p, i) in leaders" :key="p.role" v-reveal="i * 100" class="col-sm-6 col-lg-4">-->
-<!--          <img class="portrait mb-3" :src="img(p.photo)" :alt="`Photo of ${p.name}`" />-->
-<!--          <h3 class="h5 mb-0">{{ p.name }}</h3>-->
-<!--          <p class="text-muted-ink mb-0">{{ p.role }}</p>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
 
   <section class="cta-band">
     <div v-reveal class="container d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
