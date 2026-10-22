@@ -26,10 +26,10 @@ export const school = {
 
 // Home page slideshow.
 export const carousel = [
-  { file: 'carousel-1.jpg', alt: 'Pupils in a bright classroom', title: 'Lessons that engage', text: 'Small classes and caring teachers help every child take part.' },
-  { file: 'carousel-2.jpg', alt: 'Children playing on the field', title: 'Room to play and grow', text: 'Sports and games build teamwork, health and school spirit.' },
-  { file: 'carousel-3.jpg', alt: 'Pupils in traditional dress on cultural day', title: 'Proud of our culture', text: 'Cultural days celebrate Ghanaian music, dress and tradition.' },
-  { file: 'carousel-4.jpg', alt: 'Graduating students with certificates', title: 'Ready for the next step', text: 'Our JHS students are prepared for the BECE and senior high school.' },
+  { file: 'web/classroom-teaching.webp', alt: 'A teacher supporting pupils during a classroom lesson', title: 'Learning together', text: 'A look inside the classroom at Kontoh Educational Complex.' },
+  { file: 'web/pupils-together.webp', alt: 'Pupils in yellow school shirts gathered in the courtyard', title: 'Our school community', text: 'Pupils come together in the school courtyard.' },
+  { file: 'web/choreography-performance.webp', alt: 'Pupils performing a choreographed dance in the courtyard', title: 'Taking the stage', text: 'Pupils share their choreography performance.' },
+  { file: 'web/girls-club.webp', alt: 'Girls and adults gathered beneath an empowering girls and women banner', title: 'Girls Club', text: 'A moment from our Girls Club activities.' },
 ]
 
 export const levels = [
@@ -63,26 +63,51 @@ export const facilities = [
 ]
 
 export const leaders = [
-  { name: 'Mr Emmanuel Essien', role: 'Headteacher', photo: 't1.jpg' }, // [PLACEHOLDER]
-  { name: 'Mr Ernest Yeboah', role: 'Assistant Headteacher, Academics', photo: 't2.jpg' },
-  { name: 'Mr Bright Annan', role: 'Head of Junior High School', photo: 't3.jpg' },
+  { name: 'Mr Emmanuel Essien', role: 'Headteacher' },
+  { name: 'Mr Ernest Yeboah', role: 'Assistant Headteacher, Academics' },
+  { name: 'Mr Bright Annan', role: 'Head of Junior High School' },
 ]
 
 // Gallery images
-export const galleryCategories = ['Classroom', 'Sports', 'Events', 'Campus']
+export const galleryCategories = ['Classroom', 'School activities', 'Clubs', 'Visits', 'Campus']
 
 export const gallery = [
-  { file: 'g1.jpg', alt: 'Pupils reading in class', caption: 'Reading time in Primary', category: 'Classroom' },
-  { file: 'g2.jpg', alt: 'Students working in a science lesson', caption: 'Breaktime in classroom', category: 'Classroom' },
-  { file: 'g3.jpg', alt: 'Children running on the sports field', caption: 'Inter-house sports day', category: 'Sports' },
-  { file: 'g4.jpg', alt: '6th March rehearsals', caption: 'Football on the school field', category: 'Sports' },
-  { file: 'g6.jpeg', alt: 'School compound', caption: 'School compound', category: 'Campus' },
-  { file: 'g7.jpeg', alt: 'The front of the school building', caption: 'The school entrance', category: 'Campus' },
-  { file: 'g9.jpg', alt: 'Kindergarten children at play', caption: 'Kindergarten playtime', category: 'Classroom' },
-  { file: 'g10.jpeg', alt: 'Kumasi Museum', caption: 'A visit to Kumasi Museum', category: 'Events' },
-  { file: 'g11.jpeg', alt: 'Catering', caption: 'Catering session', category: 'Events' },
-  { file: 'g12.jpeg', alt: 'Holiday celebration', caption: 'Making holiday memories together', category: 'Events' },
+  { file: 'web/early-years-learning.webp', alt: 'A teacher helping young pupils with their books around classroom tables', caption: 'Learning with teacher support', category: 'Classroom' },
+  { file: 'web/christmas-dance.webp', alt: 'Pupils performing a Christmas dance in the school courtyard', caption: 'Christmas dance', category: 'School activities' },
+  { file: 'web/girls-club.webp', alt: 'Girls and adults gathered beneath an empowering girls and women banner', caption: 'Girls Club', category: 'Clubs' },
+  { file: 'web/campus-entrance.webp', alt: 'School entrance, buildings and landscaped courtyard', caption: 'Our school campus', category: 'Campus' },
+  { file: 'web/classroom-teaching.webp', alt: 'A teacher supporting pupils during a classroom lesson', caption: 'Classroom learning', category: 'Classroom' },
+  { file: 'web/classroom-activity.webp', alt: 'Pupils taking part in a classroom activity beside their desks', caption: 'Taking part in class', category: 'Classroom' },
+  { file: 'web/early-years-classroom.webp', alt: 'Young pupils and a teacher in a classroom with colourful furniture and wall drawings', caption: 'Our Early Years classroom', category: 'Classroom' },
+  { file: 'web/assembly-courtyard.webp', alt: 'Pupils standing in rows in the school courtyard', caption: 'Gathered in the courtyard', category: 'School activities' },
+  { file: 'web/school-assembly.webp', alt: 'Pupils and adults gathered in a large circle in the school courtyard', caption: 'School assembly', category: 'School activities' },
+  { file: 'web/pupils-courtyard.webp', alt: 'Rows of pupils gathered outside the school buildings', caption: 'School courtyard activities', category: 'School activities' },
+  { file: 'web/school-group.webp', alt: 'A large school group gathered outside a two-storey building', caption: 'Together at school', category: 'School activities' },
+  { file: 'web/school-community.webp', alt: 'Pupils waving outside the school building', caption: 'Our school community', category: 'School activities' },
+  { file: 'web/pupils-together.webp', alt: 'Pupils in yellow school shirts gathered in the courtyard', caption: 'Pupils together', category: 'School activities' },
+  { file: 'web/choreography-performance.webp', alt: 'Pupils performing a choreographed dance in the courtyard', caption: 'Choreography performance', category: 'School activities' },
+  { file: 'web/career-kids.webp', alt: 'Young pupils dressed as different occupations for Career Kids', caption: 'Career Kids', category: 'School activities' },
+  { file: 'web/pupil-recitations.webp', alt: 'Pupils holding written sheets during their recitations', caption: 'Pupil recitations', category: 'School activities' },
+  { file: 'web/career-costumes.webp', alt: 'A group of pupils wearing military-style career costumes', caption: 'Pupils in career costumes', category: 'School activities' },
+  { file: 'web/festive-celebration.webp', alt: 'Pupils wearing red and white festive outfits and hats', caption: 'Festive celebrations', category: 'School activities' },
+  { file: 'web/school-procession-banner.webp', alt: 'Pupils walking outdoors behind a Kontoh Educational Complex banner', caption: 'School procession', category: 'School activities' },
+  { file: 'web/school-procession.webp', alt: 'Pupils in school uniform walking in a procession along a road', caption: 'Pupils on procession', category: 'School activities' },
+  { file: 'web/jhs-catering-group.webp', alt: 'JHS pupils in catering aprons and chef hats outside the school', caption: 'JHS catering group', category: 'School activities' },
+  { file: 'web/helicopter-visit.webp', alt: 'Pupils and adults posing beside a helicopter', caption: 'A visit to see a helicopter', category: 'Visits' },
+  { file: 'web/group-outing.webp', alt: 'A group in yellow shirts gathered beneath a large tree', caption: 'A group outing', category: 'Visits' },
+  { file: 'web/campus-courtyard.webp', alt: 'School buildings, planted borders and paved courtyard', caption: 'The school courtyard', category: 'Campus' },
+  { file: 'web/school-building.webp', alt: 'A two-storey school building with blue railings and an outdoor staircase', caption: 'Our school building', category: 'Campus' },
 ]
+
+const galleryImage = (name) => gallery.find((photo) => photo.file === `web/${name}.webp`)
+
+// Choose level images explicitly so unrelated gallery additions cannot change them.
+export const levelImages = {
+  early: ['early-years-learning', 'early-years-classroom', 'classroom-activity'].map(galleryImage),
+  primary: ['assembly-courtyard', 'school-assembly', 'pupils-courtyard'].map(galleryImage),
+  // Campus views stand in until Francis supplies a suitable JHS photograph.
+  jhs: ['campus-entrance', 'school-building'].map(galleryImage),
+}
 
 export const mapSrc =
   'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15849.207601042497!2d-1.5268119!3d6.7329742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ae587e970de1f09!2sKONTOH%20EDUCATIONAL%20COMPLEX!5e0!3m2!1sen!2sgh!4v1672112108043!5m2!1sen!2sgh'

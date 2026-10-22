@@ -1,11 +1,8 @@
 <script setup>
 import HeroCarousel from '../components/HeroCarousel.vue'
-import { school, levels, reasons, values, facilities, leaders, carousel, gallery, mapSrc, img } from '../data/school'
+import { school, levels, reasons, values, facilities, leaders, carousel, gallery, levelImages, mapSrc, img } from '../data/school'
 
-const by = (cat) => gallery.filter((g) => g.category === cat)
-const early = [...by('Classroom'), ...by('Campus')]
-const primary = by('Sports').concat(by('Classroom').slice(0, 1))
-const jhs = by('Events')
+const { early, primary, jhs } = levelImages
 const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
 </script>
 
@@ -60,7 +57,7 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       <div><h4>Classes</h4><p>{{ levels[2].ages }}</p></div>
       <div><h4>Curriculum</h4><p>Ghana Education Service</p></div>
     </div>
-    <img class="band-img" :src="img('g6.jpeg')" alt="The school compound" loading="lazy" />
+    <img class="band-img" :src="img('web/campus-courtyard.webp')" alt="The school compound" loading="lazy" />
   </div>
 
   <!-- JHS (red) -->
@@ -77,12 +74,12 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       <div><h4>Classes</h4><p>{{ levels[3].ages }}</p></div>
       <div><h4>Exam</h4><p>BECE</p></div>
     </div>
-    <img class="band-img" :src="img('g6.jpeg')" alt="Graduation ceremony" loading="lazy" />
+    <img class="band-img" :src="img('web/campus-courtyard.webp')" alt="School buildings and landscaped courtyard" loading="lazy" />
   </div>
 
   <!-- Parents: photo left, text right -->
   <section id="parents" class="feature">
-    <img :src="img('about.jpg')" alt="Pupils and teachers at the school" loading="lazy" />
+    <img :src="img('web/school-community.webp')" alt="Pupils waving outside the school building" loading="lazy" />
     <div class="feature-text">
       <h2>Parent information</h2>
       <p>Call, message or visit the school to ask about places and fees. {{ school.motto }}</p>
@@ -101,12 +98,12 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       </ul>
       <RouterLink class="btn btn-pill" to="/about">More on this</RouterLink>
     </div>
-    <img :src="img('g7.jpeg')" alt="The front of the school building" loading="lazy" />
+    <img :src="img('web/school-building.webp')" alt="School building with blue railings and an outdoor staircase" loading="lazy" />
   </section>
 
-  <!-- Headteacher: photo left, text right -->
+  <!-- Headteacher message beside a campus photograph -->
   <section class="feature">
-    <img :src="img('headteacher.jpg')" alt="The headteacher" loading="lazy" />
+    <img :src="img('web/campus-entrance.webp')" alt="School entrance and campus courtyard" loading="lazy" />
     <div class="feature-text">
       <h2>A word from the headteacher</h2>
       <h3 class="sub">{{ leaders[0].name }}</h3>
