@@ -9,7 +9,7 @@ export const school = {
   phone: '+233 598 559 814', // Phone number
   phoneLink: '+233598559814', // digits only, with country code
   whatsapp: '233243321512', // digits only, no + sign
-  email: 'kontohschool@gmail.com', // this email also receives the contact form messages
+  email: 'info@kecomplex.org', // this email also receives the contact form messages
   hours: [
     { days: 'Monday to Friday', time: '7:00 am to 4:00 pm' },
     { days: 'Saturday', time: 'By appointment' },
