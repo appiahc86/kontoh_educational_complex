@@ -150,3 +150,9 @@ vite.config.ts.timestamp-*
 
 # Full-resolution image originals are kept locally; publish public/images/web copies.
 .image-originals/
+
+# Local image comparison sheets and conversion records.
+.image-review/
+
+# Preserve enhanced photos locally without publishing them.
+/ai-image-archive/

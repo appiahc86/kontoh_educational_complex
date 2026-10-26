@@ -74,7 +74,7 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       <div><h4>Classes</h4><p>{{ levels[3].ages }}</p></div>
       <div><h4>Exam</h4><p>BECE</p></div>
     </div>
-    <img class="band-img" :src="img('web/campus-courtyard.webp')" alt="School buildings and landscaped courtyard" loading="lazy" />
+    <img class="band-img" :src="img('web/campus-courtyard.webp')" alt="School buildings and courtyard" loading="lazy" />
   </div>
 
   <!-- Parents: photo left, text right -->
