@@ -57,7 +57,7 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       <div><h4>Classes</h4><p>{{ levels[2].ages }}</p></div>
       <div><h4>Curriculum</h4><p>Ghana Education Service</p></div>
     </div>
-    <img class="band-img" :src="img('web/campus-courtyard.webp')" alt="The school compound" loading="lazy" />
+    <img class="band-img" :src="img('web/img/campus-courtyard.webp')" alt="The school compound" loading="lazy" />
   </div>
 
   <!-- JHS (red) -->
@@ -74,12 +74,12 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       <div><h4>Classes</h4><p>{{ levels[3].ages }}</p></div>
       <div><h4>Exam</h4><p>BECE</p></div>
     </div>
-    <img class="band-img" :src="img('web/campus-courtyard.webp')" alt="School buildings and courtyard" loading="lazy" />
+    <img class="band-img" :src="img('web/img/campus-courtyard.webp')" alt="School buildings and courtyard" loading="lazy" />
   </div>
 
   <!-- Parents: photo left, text right -->
   <section id="parents" class="feature">
-    <img :src="img('web/school-community.webp')" alt="Pupils waving outside the school building" loading="lazy" />
+    <img :src="img('web/img/school-community.webp')" alt="Pupils waving outside the school building" loading="lazy" />
     <div class="feature-text">
       <h2>Parent information</h2>
       <p>Call, message or visit the school to ask about places and fees. {{ school.motto }}</p>
@@ -98,12 +98,12 @@ const ring = [reasons.slice(0, 2), reasons.slice(2, 4)]
       </ul>
       <RouterLink class="btn btn-pill" to="/about">More on this</RouterLink>
     </div>
-    <img :src="img('web/school-building.webp')" alt="School building with blue railings and an outdoor staircase" loading="lazy" />
+    <img :src="img('web/img/school-building.webp')" alt="School building with blue railings and an outdoor staircase" loading="lazy" />
   </section>
 
   <!-- Headteacher message beside a campus photograph -->
   <section class="feature">
-    <img :src="img('web/campus-entrance.webp')" alt="School entrance and campus courtyard" loading="lazy" />
+    <img :src="img('web/img/campus-entrance.webp')" alt="School entrance and campus courtyard" loading="lazy" />
     <div class="feature-text">
       <h2>A word from the headteacher</h2>
       <p>Every child who walks through our gate carries the hopes of a family. Our job is to match that hope with good teaching, firm guidance and a lot of care. Come and see the school for yourself.</p>

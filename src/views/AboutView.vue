@@ -39,7 +39,7 @@ import { school, values, facilities, img } from '../data/school'
           </p>
         </div>
         <div class="col-lg-6">
-          <img v-reveal="120" class="img-fluid rounded-img" :src="img('web/campus-entrance.webp')" alt="School entrance, buildings and courtyard" />
+          <img v-reveal="120" class="img-fluid rounded-img" :src="img('web/img/campus-entrance.webp')" alt="School entrance, buildings and courtyard" />
         </div>
       </div>
     </div>
