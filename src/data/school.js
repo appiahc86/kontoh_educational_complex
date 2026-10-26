@@ -65,30 +65,27 @@ export const facilities = [
 export const galleryCategories = ['Classroom', 'School activities', 'Clubs', 'Visits', 'Campus']
 
 export const gallery = [
+  { file: 'web/writing-practice.webp', alt: 'A teacher sitting beside a pupil and guiding her writing in an exercise book', caption: 'Writing practice with teacher support', category: 'Classroom' },
+  { file: 'web/classroom-lesson.webp', alt: 'A teacher leaning over a desk to help pupils with their books during a lesson', caption: 'Working through a lesson together', category: 'Classroom' },
+  { file: 'web/school-march.webp', alt: 'Pupils in blue school uniforms marching along a street with adults nearby', caption: 'Pupils taking part in a school march', category: 'School activities' },
   { file: 'web/early-years-learning.webp', alt: 'A teacher helping young pupils with their books around classroom tables', caption: 'Learning with teacher support', category: 'Classroom' },
-  { file: 'web/christmas-dance.webp', alt: 'Pupils performing a Christmas dance in the school courtyard', caption: 'Christmas dance', category: 'School activities' },
   { file: 'web/girls-club.webp', alt: 'Girls and adults gathered beneath an empowering girls and women banner', caption: 'Girls Club', category: 'Clubs' },
-  { file: 'web/campus-entrance.webp', alt: 'School entrance, buildings and landscaped courtyard', caption: 'Our school campus', category: 'Campus' },
+  { file: 'web/campus-entrance.webp', alt: 'School entrance, buildings and courtyard', caption: 'Our school campus', category: 'Campus' },
   { file: 'web/classroom-teaching.webp', alt: 'A teacher supporting pupils during a classroom lesson', caption: 'Classroom learning', category: 'Classroom' },
   { file: 'web/classroom-activity.webp', alt: 'Pupils taking part in a classroom activity beside their desks', caption: 'Taking part in class', category: 'Classroom' },
   { file: 'web/early-years-classroom.webp', alt: 'Young pupils and a teacher in a classroom with colourful furniture and wall drawings', caption: 'Our Early Years classroom', category: 'Classroom' },
-  { file: 'web/assembly-courtyard.webp', alt: 'Pupils standing in rows in the school courtyard', caption: 'Gathered in the courtyard', category: 'School activities' },
   { file: 'web/school-assembly.webp', alt: 'Pupils and adults gathered in a large circle in the school courtyard', caption: 'School assembly', category: 'School activities' },
-  { file: 'web/pupils-courtyard.webp', alt: 'Rows of pupils gathered outside the school buildings', caption: 'School courtyard activities', category: 'School activities' },
-  { file: 'web/school-group.webp', alt: 'A large school group gathered outside a two-storey building', caption: 'Together at school', category: 'School activities' },
+  { file: 'web/school-group.webp', alt: 'A large school group gathered outside the school buildings', caption: 'Together at school', category: 'School activities' },
   { file: 'web/school-community.webp', alt: 'Pupils waving outside the school building', caption: 'Our school community', category: 'School activities' },
   { file: 'web/pupils-together.webp', alt: 'Pupils in yellow school shirts gathered in the courtyard', caption: 'Pupils together', category: 'School activities' },
   { file: 'web/choreography-performance.webp', alt: 'Pupils performing a choreographed dance in the courtyard', caption: 'Choreography performance', category: 'School activities' },
-  { file: 'web/career-kids.webp', alt: 'Young pupils dressed as different occupations for Career Kids', caption: 'Career Kids', category: 'School activities' },
-  { file: 'web/pupil-recitations.webp', alt: 'Pupils holding written sheets during their recitations', caption: 'Pupil recitations', category: 'School activities' },
   { file: 'web/career-costumes.webp', alt: 'A group of pupils wearing military-style career costumes', caption: 'Pupils in career costumes', category: 'School activities' },
-  { file: 'web/festive-celebration.webp', alt: 'Pupils wearing red and white festive outfits and hats', caption: 'Festive celebrations', category: 'School activities' },
   { file: 'web/school-procession-banner.webp', alt: 'Pupils walking outdoors behind a Kontoh Educational Complex banner', caption: 'School procession', category: 'School activities' },
   { file: 'web/school-procession.webp', alt: 'Pupils in school uniform walking in a procession along a road', caption: 'Pupils on procession', category: 'School activities' },
   { file: 'web/jhs-catering-group.webp', alt: 'JHS pupils in catering aprons and chef hats outside the school', caption: 'JHS catering group', category: 'School activities' },
   { file: 'web/helicopter-visit.webp', alt: 'Pupils and adults posing beside a helicopter', caption: 'A visit to see a helicopter', category: 'Visits' },
   { file: 'web/group-outing.webp', alt: 'A group in yellow shirts gathered beneath a large tree', caption: 'A group outing', category: 'Visits' },
-  { file: 'web/campus-courtyard.webp', alt: 'School buildings, planted borders and paved courtyard', caption: 'The school courtyard', category: 'Campus' },
+  { file: 'web/campus-courtyard.webp', alt: 'School buildings and courtyard', caption: 'The school courtyard', category: 'Campus' },
   { file: 'web/school-building.webp', alt: 'A two-storey school building with blue railings and an outdoor staircase', caption: 'Our school building', category: 'Campus' },
 ]
 
@@ -97,7 +94,7 @@ const galleryImage = (name) => gallery.find((photo) => photo.file === `web/${nam
 // Choose level images explicitly so unrelated gallery additions cannot change them.
 export const levelImages = {
   early: ['early-years-learning', 'early-years-classroom', 'classroom-activity'].map(galleryImage),
-  primary: ['assembly-courtyard', 'school-assembly', 'pupils-courtyard'].map(galleryImage),
+  primary: ['writing-practice', 'classroom-lesson', 'school-assembly'].map(galleryImage),
   // Campus views stand in until Francis supplies a suitable JHS photograph.
   jhs: ['campus-entrance', 'school-building'].map(galleryImage),
 }
